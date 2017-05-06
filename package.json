@@ -16,6 +16,7 @@
     "ng": "ng",
     "rimraf": "rimraf",
     "changelog": "standard-changelog",
+    "clean": "npm cache clean && npm run rimraf -- node_modules doc coverage dist compiled dll",
     "start": "ng serve",
     "start:hmr": "ng serve --hmr",
     "start:aot": "ng serve --aot",

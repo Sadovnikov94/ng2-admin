@@ -6,7 +6,7 @@ RUN git clone https://github.com/akveo/ng2-admin.git /var/www \
     && npm run clean \
     && npm install --global webpack webpack-dev-server typescript@2.1.5 \
     && npm install \
-    && npm run prebuild:prod && npm run build:prod
+    && npm run build && npm run build:prod
 
 EXPOSE 8080
 
